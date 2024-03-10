@@ -23,6 +23,8 @@ function Home2() {
               Developement and <b className="purple"> Django </b> for Backend.
               <br />I can deploy web applications on linux server with docker
               compose or kubernetes
+              <br />
+              And also, I can set up CI/CD to flow the work automatically.
               {/* <br />I am fluent in classics like
               <i>
                 <b className="purple"> C++, Javascript and Go. </b>
