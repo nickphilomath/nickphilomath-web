@@ -5,9 +5,7 @@ import { ImPointRight } from "react-icons/im";
 function AboutCard() {
   return (
     <Card className="quote-card-view">
-      <Card.Body>
-        ###
-      </Card.Body>
+      <Card.Body>Just see what I can do in Projects section</Card.Body>
     </Card>
   );
 }

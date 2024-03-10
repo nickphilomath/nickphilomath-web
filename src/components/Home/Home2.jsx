@@ -2,11 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaTelegram, FaYoutube, FaItchIo } from "react-icons/fa"
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
+import { FaTelegram, FaYoutube, FaItchIo } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -21,10 +18,11 @@ function Home2() {
               I love creating something from nothing :)
               <br />
               <br />
-              I would like to be secure. I have good linux skills 
-              <br />
-              I usually use <b className="purple"> React </b> for Frontend Developement and <b className="purple"> Django </b> for Backend.
-              
+              I would like to be secure. I have good linux skills
+              <br />I usually use <b className="purple"> React </b> for Frontend
+              Developement and <b className="purple"> Django </b> for Backend.
+              <br />I can deploy web applications on linux server with docker
+              compose or kubernetes
               {/* <br />I am fluent in classics like
               <i>
                 <b className="purple"> C++, Javascript and Go. </b>
@@ -34,25 +32,10 @@ function Home2() {
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Services and Applications </b> and
-                deploying them to make {" "}
-                <b className="purple">
-                  Up and Running.
-                </b>
+                deploying them to make <b className="purple">Up and Running.</b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">

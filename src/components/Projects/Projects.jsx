@@ -2,8 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import oeliks from "../../Assets/Projects/oeliks.png";
 
 function Projects() {
   return (
@@ -19,18 +18,16 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={oeliks}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/"
-              demoLink="https://chatify-49.web.app/"
+              title="oeliks.uz"
+              description="The website offers a convenient platform for uploading and browsing advertisements. Users can effortlessly share their ads and discover a diverse range of offerings from others. Whether you're promoting products, services, events, or more, our platform provides an easy and efficient way to connect with your target audience. Join us today to maximize your advertising impact."
+              ghLink="https://github.com/dragonsteam/oeliks-server"
+              demoLink="http://oeliks.uz/"
             />
           </Col>
 
-         
-
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -39,7 +36,7 @@ function Projects() {
               ghLink="https://github.com/"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
