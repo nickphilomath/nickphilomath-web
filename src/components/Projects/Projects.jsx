@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import oeliks from "../../Assets/Projects/oeliks.png";
+import testing from "../../Assets/Projects/testing.png";
 
 function Projects() {
   return (
@@ -27,16 +28,16 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={testing}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Knowladge testing"
+              description="Go-to platform for testing your knowledge across a variety of subjects. From mathematics to history, science to literature, Quiz tester offers interactive quizzes that challenge and engage users of all levels. With instant feedback, customizable learning paths, and competitive challenges. Quiz tester provides a convenient way to expand your knowledge anytime, anywhere. Join a vibrant community of learners, sharpen your skills, and unlock your potential with Quiz tester."
+              ghLink="https://github.com/nickphilomath"
+              demoLink="https://bejewelled-cucurucho-e6b16e.netlify.app"
             />
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </Container>
