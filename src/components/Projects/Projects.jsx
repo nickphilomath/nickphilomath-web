@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import perfecto from "../../Assets/Projects/perfecto.png";
 import oeliks from "../../Assets/Projects/oeliks.png";
 import testing from "../../Assets/Projects/testing.png";
 
@@ -17,6 +18,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={perfecto}
+              isBlog={false}
+              title="Perfecto CRMS"
+              description="Perfecto is a comprehensive web platform tailored for logistics companies, offering efficient management and real-time monitoring capabilities. From inventory tracking to shipment scheduling, Perfecto simplifies logistics operations with its intuitive interface. Customizable alerts ensure proactive issue resolution, while secure cloud hosting on perfecto.uz ensures accessibility from anywhere. Experience streamlined logistics management with Perfecto."
+              ghLink="https://github.com/nickphilomath"
+              demoLink="https://perfecto.uz"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={oeliks}
